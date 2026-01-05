@@ -57,61 +57,7 @@ p {
   line-height: 1.8;
 }
 
-/* リストのスタイル */
-ul,ol {
-  /*⑦番号なしリスト（ul）と番号付きリスト（ol）の両方を指定する記述は？（カンマで区切る）
-*/
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
 
-li {
-  margin-bottom: 8px;
-  font-size: 15px;
-}
-
-/* ==========================================
-   表のスタイル（セレクタ3）
-   ========================================== */
-
-table{
-  /*
-⑧表全体のスタイルを指定するセレクタは？*/
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-th{
-  /*⑨表のヘッダーセル（th要素）を選択するセレクタは？
-　（table と th の間に何を入れるか？）
-*/
-  background-color: #1a5490;
-  color: #fff;
-  padding: 12px;
-  text-align: left;
-  font-weight: bold;
-}
-
-td{
-  /*
-⑩表のデータセル（td要素）を選択するセレクタは？
-　（table と td の間に何を入れるか？）*/
-  padding: 12px;
-  border-bottom: 1px solid #ddd;
-}
-
-table tr:hover {
-  background-color: #f0f7ff;
-}
-
-/* ==========================================
-   その他の要素
-   ========================================== */
-
-/* ナビゲーション */
 nav {
   text-align: center;
   margin-bottom: 30px;
