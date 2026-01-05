@@ -11,6 +11,7 @@ body{ /*①ページ全体のスタイルを指定するセレクタは？
 
 /* ページ全体の最大幅 */
 body {
+  width:100%;
   max-width: 900px;
   margin:auto; 
   
